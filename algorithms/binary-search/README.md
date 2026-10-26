@@ -7,6 +7,23 @@
 
 ## Solutions
 
+### ☕ Java — Approach 5 (`solution_5.java`)
+
+- **Synchronized:** October 26, 2026
+- **Language:** `Java`
+- **Source File:** [`solution_5.java`](solution_5.java)
+
+#### 💡 Approach & Intuition
+
+> The algorithm uses binary search to repeatedly divide the search interval in half, checking the middle element until the target is found or the interval is exhausted.
+
+#### ⏱️ Complexity Analysis
+
+- **Time Complexity:** `O(log N)` — *The search space is halved in each iteration of the while loop, resulting in a logarithmic number of steps relative to the array length N.*
+- **Space Complexity:** `O(1)` — *The algorithm uses a constant amount of extra space for a few primitive variables (low, high, mid, ans), regardless of the input size.*
+
+---
+
 ### ☕ Java — Approach 4 (`solution_4.java`)
 
 - **Synchronized:** October 26, 2026
