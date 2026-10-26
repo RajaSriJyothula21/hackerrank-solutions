@@ -7,6 +7,23 @@
 
 ## Solutions
 
+### ☕ Java — Approach 4 (`solution_4.java`)
+
+- **Synchronized:** October 26, 2026
+- **Language:** `Java`
+- **Source File:** [`solution_4.java`](solution_4.java)
+
+#### 💡 Approach & Intuition
+
+> The algorithm implements standard binary search by repeatedly dividing the search interval in half until the target value is found or the interval is empty.
+
+#### ⏱️ Complexity Analysis
+
+- **Time Complexity:** `O(log N)` — *The search space is halved in each iteration of the while loop, resulting in a logarithmic number of steps relative to the array size N.*
+- **Space Complexity:** `O(1)` — *The algorithm only uses a few primitive variables (low, high, mid) which require constant extra space regardless of the input size.*
+
+---
+
 ### ☕ Java — Approach 2 (`solution_2.java`)
 
 - **Synchronized:** October 26, 2026
